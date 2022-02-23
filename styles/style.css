@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&family=Roboto:wght@500&family=Rowdies:wght@700&family=Source+Serif+4:ital@0;1&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F2F2F2;
+}
+/* top players style */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+}
+.player,.author{
+    margin-left: 10px;
+}
+.player,.title{
+    margin-left: 10px;
+}
+
+.player{
+    width: 330px;
+    height: 474px;
+    
+}
+.player{
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    margin: 30px;
+}
+.player img{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    width: 300px;
+    height: 256px;
+}
+/* america */
+.blog{
+    display: flex;
+    align-items: center;
+}
+.blog-info{
+    margin-right: 69px;
+    margin-left: 69px;
+}
+.blog-title{
+    width: 250px;
+    height: 309px;
+    margin-left: 100px;
+    font-size: xx-large;
+}
+.blog-author{
+    margin-top: -158px;
+    width: 400px;
+    height: 309px;
+}
+.watch{
+    background-color: #E02C6D;
+    text-decoration: none;
+    padding: 10px 10px;
+    
+}
+.blog .thumbnail img{
+    width: 567px;
+    height: 427px;
+    margin-right: 40px;
+}
+/* football */
+.bloger{ 
+    margin-left: 256px;
+    height: 236px;
+}
+.icone{
+    margin-left: 458px;
+}
+/* footer */
+footer{
+    text-align: center;
+}
