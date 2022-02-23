@@ -3,7 +3,34 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #F2F2F2;
 }
+
+/* football */
+.logo{
+    display: flex;
+    background-color: #2D25A0;
+}
+.logo-png{
+    color: #ffffff;
+    font-size: 32px;
+    margin-left: 129px;
+}
+.banner{
+    background-color: #E02A6C;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1px 15px;
+}
+
+.title-ball img{
+    width: 556px;
+    height: 438px;
+    margin-right: 45px;
+    margin-left: 329px;
+    margin-top: 30px;
+}
+
 /* top players style */
+
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -53,11 +80,11 @@ body{
     width: 400px;
     height: 309px;
 }
-.watch{
+.watch-now{
     background-color: #E02C6D;
     text-decoration: none;
-    padding: 10px 10px;
-    
+    margin-left: 90px;
+    padding: 10px 30px;
 }
 .blog .thumbnail img{
     width: 567px;
