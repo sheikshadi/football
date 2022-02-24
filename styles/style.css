@@ -2,32 +2,101 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F2F2F2;
+    margin: 0px;
+    padding: 0px;
 }
 
 /* football */
+/* menu star */
+
+/* menu end */
 .logo{
-    display: flex;
+    display: flex; 
     background-color: #2D25A0;
+} 
+.logo{
+    background-color: #2D25A0;
+     width: 100%;
+    height: 677px; 
+    padding-top: 42px;
 }
+/* navbar  start*/
+.navbar {
+    width: 1160px;
+    margin: auto;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+    margin-top: -34px;
+}   
+.menu ul li {
+    color: #FFFFFF;
+    margin-right: 30px;
+    list-style: none;
+    float: left;
+}
+.menu ul li:hover{
+    background-color: olive;
+    border-radius: 5px;
+    transition: 2s all ease;
+}
+.option{
+    background-color: #E02A6C;
+    width: 129px;
+    height: 34px;
+    margin-left: 597px;
+    margin-top: 20px;
+    border-radius: 11px;
+}
+ .option:hover{
+    background-color: orange;
+    transform: rotate(180deg) scale(1.10);
+    text-transform: uppercase;
+    transition: 3s;
+ }
+/* navbar  end*/
+.logo:hover{
+     transition-duration: 4s; 
+    background-color: #6159d6;
+}
+
 .logo-png{
     color: #ffffff;
     font-size: 32px;
-    margin-left: 129px;
+    margin-left: -885px;
+    padding-top: 50px;
+}
+.logo-png:hover{
+    color: olive;
 }
 .banner{
     background-color: #E02A6C;
     text-decoration: none;
     color: #ffffff;
-    padding: 1px 15px;
+    padding: 13px 28px;
+    border-radius: 10px;
+}
+.banner:hover{
+        background-color: green;
+        transform: rotateY(360deg) scale(1.10);
+        text-transform: uppercase;
+        border: 2px solid red;
+        transition: 3s;
 }
 
 .title-ball img{
     width: 556px;
     height: 438px;
     margin-right: 45px;
-    margin-left: 329px;
-    margin-top: 30px;
+    margin-left: 245px;
+    margin-top: 70px;
 }
+.title-ball img:hover{
+    transform: rotate(30deg);
+    transition: 2s all ease;
+}
+
 
 /* top players style */
 
@@ -47,6 +116,16 @@ body{
     width: 330px;
     height: 474px;
     
+}
+.player:hover{
+    background-color: yellow;
+    transition: 2s;
+    transform: scale(1.10);
+}
+.player:hover img{
+    background-color: yellow;
+    transition: 2s;
+    transform: scale(1.10);
 }
 .player{
     background-color: #ffffff;
@@ -85,38 +164,88 @@ body{
     text-decoration: none;
     margin-left: 90px;
     padding: 10px 30px;
+    border-radius: 10px;
+}
+.watch-now:hover{
+    background-color: green;
+    transform: rotateY(360deg) scale(1.10);
+    text-transform: uppercase;
+    border: 2px solid red;
+    transition: 3s;
 }
 .blog .thumbnail img{
     width: 567px;
     height: 427px;
     margin-right: 40px;
 }
+.blog .thumbnail img:hover{
+    background-color: yellow;
+    transition: 2s;
+    transform: scale(1.10);
+}
 /* football */
 .football{
     display: grid;
+    align-items: baseline;
+    justify-items: center;
 }
-.bloger{ 
-    margin-left: 256px;
-    height: 236px;
+
+.bloger img{ 
+    width: 483.87px;
+    height: 110px;
 }
 .icone{
-    margin-left: 458px;
+    display: flex;
+    justify-items: center;
+}
+ .icone i{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #D1D1D1;
+    margin-bottom: 20px;
+    margin-left: 5px; 
 }
 /* footer */
 footer{
     text-align: center;
 }
+
+/* hr */
+hr {
+    border: 1px solid #D1D1D1;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+}
+/* hr */
+
+h1{
+    text-align: center;
+}
+
+/* president work */
+.president-work {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 30px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.president-work, .president-intro{
+    margin-bottom: 20px;
+}
 /*--------------
  mobile 
 --------------- */
-@media only screen and (max-width:690px) {
-    .main{
-        width: 100px;
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
     }
-    .football, .bloger, .icone{
+    .players, .blogs, .courses{
         grid-template-columns: repeat(1,1fr);
     }
-    .players, .blog{
+    .player, .blog{
         flex-direction: column;
     }
     
