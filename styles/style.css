@@ -133,7 +133,7 @@ body{
     margin: 30px;
 }
 .player img{
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 15px;
     width: 300px;
@@ -183,6 +183,185 @@ body{
     transition: 2s;
     transform: scale(1.10);
 }
+
+/* ----------
+courses style start---------*/
+
+ .courses{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 30px;
+} 
+.section-title{
+    text-align: center;
+}
+.course-detail{
+    text-align: center;
+}
+.course{
+    width: 365px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    margin-right: 12px;
+}
+.course-logo{
+    width: 365px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    margin-left: auto;
+}
+.course-logo:hover{
+    background-color: #E02A6C;
+    transition: 2s;
+    transform: scale(1.10)
+}
+.course-logo .course-banner img{
+    width: 331px;
+    height: 230px;
+    margin-left: 17px;
+    margin-top: 10px;
+}  
+.course-logo .course-banner img:hover{
+    transition: 2s;
+    transform: scale(1.10);
+}
+
+.course .course-banner img{
+    width: 331px;
+    height: 230px;
+    margin-left: 17px;
+    margin-top: 10px;
+}
+.course .course-banner img:hover{
+    transition: 2s;
+    transform: scale(1.10);
+}
+.course:hover{
+    background-color: #E02A6C;
+    transition: 2s;
+    transform: scale(1.10);
+}
+
+/* ----------
+courses style end---------*/
+
+
+/* ----------
+courses style start 2023---------*/
+
+.courses-png{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-column-gap: 30px;
+    /* justify-items: end;  */
+}
+.section-titl{
+    text-align: inherit;
+    margin-left: 126px;
+}
+.course-detail{
+    text-align: center;
+}
+
+.dellopar{
+    width: 240px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-bottom: -12px;
+    box-shadow: 0px 0px 6px;
+}
+.course-log{
+    width: 240px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    margin-left: 506px;
+    border-radius: 5px;
+    margin-bottom: -13px;
+    box-shadow: 0px 0px 6px;
+}
+.course-log:hover{
+    background-color: #E02A6C;
+    transition: 2s;
+    transform: scale(1.10)
+}
+.course-log .course-banne img{
+    width: 240px;
+    height: 191px;
+    margin-left: 0px;
+    margin-top: 0px;
+    border-radius: 5px;
+}  
+.course-log .course-banne .hover{
+    transition: 2s;
+    transform: scale(1.10);
+}
+
+.dellopar .course-banne img{
+    width: 240px;
+    height: 191px;
+    margin-left: 0px;
+    margin-top: 0px;
+    border-radius: 5px;
+}
+.dellopar .course-banne .hover{
+    transition: 2s;
+    transform: scale(1.10);
+}
+.dellopar:hover{
+    background-color: #E02A6C;
+    transition: 2s;
+    transform: scale(1.10);
+}
+.course-author{
+    font-size: 16px;
+    color: #6C6C6C;
+}
+.date{
+    font-size: 15px;
+    font-weight: 100;
+    color: burlywood;
+    margin-right: 145px;
+}
+/* ----------
+courses style end 2023---------*/
+
+/* All Hilight start */
+.blog-in{
+    margin-right: -486px;
+    margin-left: 69px;
+}
+.blog-tel{
+    width: 250px;
+    height: 309px;
+    margin-left: 100px;
+    font-size: xx-large;
+}
+.thor{
+    margin-top: -205px;
+    width: 400px;
+    height: 309px;
+}
+.watch{
+    background-color: #E02C6D;
+    text-decoration: none;
+    margin-left: 90px;
+    margin-bottom: -24px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.watch:hover{
+    background-color: green;
+    transform: rotateY(360deg) scale(1.10);
+    text-transform: uppercase;
+    border: 2px solid red;
+    transition: 3s;
+}
+/* All Hilight end */
+
+
+
+
 /* football */
 .football{
     display: grid;
@@ -209,8 +388,11 @@ body{
 footer{
     text-align: center;
 }
+.top{
+    text-align: center;
+}
 
-/* hr */
+/* hr start*/
 hr {
     border: 1px solid #D1D1D1;
     margin: auto;
@@ -218,26 +400,50 @@ hr {
     margin-bottom: 30px;
     width: 80%;
 }
-/* hr */
-
-h1{
-    text-align: center;
-}
-
-/* president work */
-.president-work {
+/* hr end */
+/* All FIFA Start */
+.courses-fifa{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-column-gap: 30px;
-    margin: auto;
-    margin-bottom: 40px;
+} 
+.course-tit{
+    margin-left: -548px;
 }
-.president-work, .president-intro{
-    margin-bottom: 20px;
+.course-detail{
+    text-align: center;
 }
-/*--------------
+.course-loto{
+    width: 100%px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    margin-right: 12px;
+}
+.course-go{
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    margin-left: 10px;
+}
+.course-go .course-banner img{
+    width: 100%;
+    margin-left: 2px;
+    margin-top: -1px;
+    border-radius: 5px;
+}  
+.course-loto .course-banner img{
+    width: 100%;
+   border-radius: 5px;
+    margin-top: 0px;
+}
+.read{
+    color: #2D25A0;
+}
+/* All FIFA end */
+
+/* -------------- 
  mobile 
---------------- */
+---------------  */
 @media only screen and (max-width:688px) {
     .container{
         width: 100%;
